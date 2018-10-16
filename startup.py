@@ -7,7 +7,7 @@ try:
 except ImportError:
     print ("you should install nltk before continuing")
 
-print "checking for numpy"
+print ("checking for numpy")
 try:
     import numpy
 except ImportError:
